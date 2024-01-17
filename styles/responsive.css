@@ -94,7 +94,8 @@
         left: 0%;
 
     }
-    .section5 > p {
+
+    .section5>p {
         margin: 0%;
         padding: 10px;
     }
@@ -136,6 +137,7 @@
     .discount1>h5 {
         margin-top: 20px;
     }
+
     .deals-container1 {
         width: 335px;
         height: 500px;
@@ -144,4 +146,54 @@
         margin-bottom: 10px;
     }
 
+    .bangladesh {
+        flex-direction: column;
+        margin: 0px;
+        padding: 15px%;
+    }
+
+    .bangladesh-img-box>img {
+        width: 330px;
+        height: 200px;
+        margin-left: 0px;
+        margin-right: 10px;
+        padding: 0px;
+        gap: 0px;
+    }
+
+    .login {
+        flex-direction: column;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .signup {
+        width: 300px;
+        margin: 0px;
+        margin-left: 10px;
+    }
+
+    .form-img>img {
+        width: 335px;
+        margin: 0%;
+        padding: 0%;
+
+    }
+
+    .login, .saveup>img {
+        width: 150px;
+        height: 80px;
+    }
+
+    .login .saveup {
+        position: relative;
+        object-fit: cover;
+        right: -50px;
+        bottom: 300px;
+
+    }
+    .footer{
+        flex-direction: column;
+    }
 }
